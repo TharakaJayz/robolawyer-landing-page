@@ -1,16 +1,16 @@
 
 
-
+/*
 
 .nav{
    
-   position: sticky;
-   top:0;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   font-size: 1.125rem;
-   font-family: Arial, Helvetica, sans-serif;
+   position: sticky;-
+   top:0;-
+   display: flex;-
+   align-items: center; -
+   justify-content: space-between;-
+   font-size: 1.125rem;-
+   font-family: Arial, Helvetica, sans-serif;-
    margin-bottom: 50px;
 
   
@@ -66,33 +66,44 @@ img{
     display: none;
 }
 
+*/ 
+
 
 
 
 /* mobile responsive*/
 
-@media (max-width: 430px) {
+/* @media (max-width: 430px) {
  
-    .nav{
-        position: sticky;
+    .nav{ */
+        /* position: sticky;
         top:10px;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 20px;
-    }
+        margin-bottom: 20px; */
+        /* width:100;
+        padding:0px 20px; */
+        
+    /* } */
    
 
-    .nav_ul{
+    /* .nav_ul{
         display: none;
-    }
-    .nav_ul_resposive{
-        display: block;
-        transition:4.3s ease-in-out;
+    } */
+    /* .nav_ul_resposive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1em;
+        transition:0.3s ease-in-out;
         position:absolute;
         list-style: none;
         top:100px;
         text-align: center;
+        background-color: red;
+        width:100%;
         
      
     }
@@ -109,6 +120,10 @@ img{
     }
   }
 
+ */
+
+
+  
 
 
 
@@ -118,89 +133,3 @@ img{
 
 
 
-
-
-
-
-
-
-
-/* .nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50px; 
-    color:red;
-}
-
-.nav_img{
-   width:50px;
-   height:50px;
-
-}
-
-
-
-.nav_ul_1,.nav_ul_2{
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
-.nav_ul_1{
-    display: flex;
-}
-
-.nav_ul_1 li,
-.nav_ul_2 li{
-
-    margin: 0 10px;
-}
-
-.nav_ul_2{
-    display: none;
-}
-
-
-button{
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: 0.3s;
-
-}
-
-
-.nav_btn_open:hover,.nav_btn_closed:hover{
-    background-color: #ccc;
-}
-
-.nav_btn_open{
-
-    display: block;
-}
-
-.nav_btn_closed{
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .nav_ul_1{
-      display: none;
-    }
-
-    .nav_btn_open {
-      width: 100%;
-    }
-
-    .nav_ul_2{
-      /* display: block; */
-    /* }
-  } */ 

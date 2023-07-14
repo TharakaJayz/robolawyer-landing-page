@@ -1,0 +1,14 @@
+.home_main{
+
+}
+
+
+/* mobile responsive*/
+
+@media (max-width: 430px) {
+  
+    .home_main{
+        margin-top: 70vh;
+    }
+
+}
