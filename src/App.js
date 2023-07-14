@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <div className={classes.app_main}>
-      <Navbar scrollToSection={scrollToSection} />
+      {/* <Navbar scrollToSection={scrollToSection} /> */}
       <Home/>
       <AboutUs />
       <HowItWorks />
