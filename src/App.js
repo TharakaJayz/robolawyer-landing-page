@@ -35,6 +35,7 @@ const App = () => {
       <Pricing/>
       <Reviews />
       <FAQ />
+      {/* <button className={classes.app_btn}>HOME</button> */}
     </div>
   );
 };

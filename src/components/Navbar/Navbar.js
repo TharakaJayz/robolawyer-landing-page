@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
-const Navbar = ({ scrollToSection }) => {
+const Navbar = ({ scrollToSection,className }) => {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // const clasVal = isMenuOpen ? classes.nav_ul_resposive : classes.nav_ul;
@@ -104,7 +104,7 @@ const Navbar = ({ scrollToSection }) => {
   };
 
   return (
-    <header>
+    <header className= {className}>
      <img src={Logo} alt="Logo" />
       <nav ref={navRef}>
         {/* <a href="/#">Home</a>
@@ -116,7 +116,7 @@ const Navbar = ({ scrollToSection }) => {
 
           
           <a
-            href="#"
+            href="#1"
             onClick={(e) => {
               scrollToSection("about-us-section");
               e.preventDefault();
@@ -127,7 +127,7 @@ const Navbar = ({ scrollToSection }) => {
        
       
           <a
-            href="#"
+            href="#2"
             onClick={(e) => {
               scrollToSection("how-it-works-section");
               e.preventDefault();
@@ -138,7 +138,7 @@ const Navbar = ({ scrollToSection }) => {
         
       
           <a
-            href="#"
+            href="#3"
             onClick={(e) => {
               scrollToSection("benifits-section");
               e.preventDefault();
@@ -149,7 +149,7 @@ const Navbar = ({ scrollToSection }) => {
         
       
           <a
-            href="#"
+            href="#4"
             onClick={(e) => {
               scrollToSection("pricing-section");
               e.preventDefault();
@@ -160,7 +160,7 @@ const Navbar = ({ scrollToSection }) => {
         
       
           <a
-            href="#"
+            href="#5"
             onClick={(e) => {
               scrollToSection("reviews-section");
               e.preventDefault();
@@ -171,7 +171,7 @@ const Navbar = ({ scrollToSection }) => {
         
       
           <a
-            href="#"
+            href="#6"
             onClick={(e) => {
               scrollToSection("faq-section");
               e.preventDefault();
