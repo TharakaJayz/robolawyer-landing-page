@@ -8,7 +8,7 @@ const HowItWorks = () => {
   return (
     <div className={classes.HItW_main} id="how-it-works-section">
       <div className={classes.HItW_main_div}>
-        <img className={classes.HItW_main_div_img} src={rect} alt="rectangle" />
+        <img className={classes.HItW_main_div_img1} src={rect} alt="rectangle" />
         <div className={classes.HItW_main_div_detail}>
           <section className={classes.detail_sec1}>
             <section className={classes.detail_sec1_sub_sec1}>PROCESS</section>
@@ -68,10 +68,12 @@ const HowItWorks = () => {
             </section>
           </section>
           <section className={classes.detail_sec2}>
-            <img  src = {process_img}  alt = 'prosess image'  />
+            <img  className={classes.detail_sec2_img} src = {process_img}  alt = 'prosess'  />
+            <img className={classes.HItW_main_div_img3} src={rect} alt="rectangle" />
+            
           </section>
         </div>
-        <img className={classes.HItW_main_div_img} src={rect} alt="rectangle" />
+        <img className={classes.HItW_main_div_img2} src={rect} alt="rectangle" />
       </div>
     </div>
   );
