@@ -33,8 +33,8 @@ header {
  height: 5rem;
  z-index: 500;
  background-color: #4169e334;
- border-bottom-left-radius: 20px;
- border-bottom-right-radius: 20px;
+ /* border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px; */
  
  /* margin-top: 30px; */
  display: flex;
@@ -117,8 +117,12 @@ nav {
 @media only screen and (max-width: 1024px) {
 
     header{
-        padding:0px 50px;
-        padding-top: 20px;
+        padding:20px 50px;
+        /* padding-top: 20px; */
+		/* background-color: red; */
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
         
     }
 	header .nav-btn {
@@ -141,10 +145,13 @@ nav {
 		gap: 1.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
+		
+		
        
 	}
     header nav a{
         color: white;
+		font-size:1.2rem;
     }
 
 	header .responsive_nav {
@@ -165,7 +172,21 @@ nav {
 
     .nav_btn_mobi{
         display: block;
+		font-size: 1rem;
+		padding:0.65em 0.4em;
+		color:#4169E3;
+		border:2px solid #4169E3;
+		border-radius: 0.5em;
+		background-color: #fff;
+		transition: 0.4s ease-in-out;
     }
+
+
+	.nav_btn_mobi:hover{
+		cursor: pointer;
+		color:#fff;
+		background: #4169E3;
+	}
     .nav_btn_desk{
         display: none;
     }

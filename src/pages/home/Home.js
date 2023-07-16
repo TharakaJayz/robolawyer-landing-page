@@ -77,13 +77,14 @@ const Home = () => {
               </section> 
             </section>
             </div>
-          <div className={classes.sub_r_shape}>
+           <div className={classes.sub_r_shape}>
 
             <img className={classes.shape1} src={homeCircles} alt="circles" />
             <img   className={classes.shape2}src={shape} alt="shape" />
-          </div>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   );
