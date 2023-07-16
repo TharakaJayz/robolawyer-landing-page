@@ -3,7 +3,7 @@ import classes from './Benifits.module.css';
 
 const Benifits = () => {
   return (
-    <div id = 'benifits-section'>
+    <div  className={classes.benificts}  id = 'benifits-section'>
       benificts
     </div>
   )
