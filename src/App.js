@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./App.module.css";
-import Navbar from "./components/Navbar/Navbar";
+
 import AboutUs from "./pages/aboutUs/AboutUs";
 import HowItWorks from "./pages/howItWorks/HowItWorks";
 
-import { Route, Routes } from "react-router-dom";
+
 import Benifits1 from "./pages/Benifits/Benifits1";
 import Pricing from "./pages/pricing/Pricing";
 import Reviews from "./pages/reviews/Reviews";

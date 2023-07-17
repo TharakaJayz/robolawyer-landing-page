@@ -24,7 +24,7 @@ const Home = () => {
       <div className={classes.home_sub}>
         <div className={classes.home_sub_l}>
           <section className={classes.sec_1}>
-            <a href="#">Unlock legal solutions with Robolawyer</a>
+            <a href="unlock">Unlock legal solutions with Robolawyer</a>
           </section>
           <section className={classes.sec_2}>
             Simplify Your Legal Journey <span>with AI Powered Expertise
