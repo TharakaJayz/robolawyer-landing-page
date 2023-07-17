@@ -1,0 +1,260 @@
+.benifits2_main{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.benifits2_main_top{
+    padding:0 7%;
+    background-color: #4169E3;
+    width: 100%;
+    /* height:301px; */
+    height:20vw;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.benifits2_main_top h1{
+    all: unset;
+    font-size: 3.75rem;
+}
+
+.benifits2_main_top h1 span{
+    display: block;
+}
+
+.benifits2_main_top p{
+    font-size: 1.12rem;
+    padding-top: 2em;
+}
+
+
+.benifits2_main_bottom{
+    padding:0 7%;
+}
+
+.main_bottom_sec1 {
+    margin:0px auto;
+    width:70%;
+    text-align: center;
+
+}
+
+
+.main_bottom_sec1 h5{
+    all: unset;
+    display: block;
+    color:#4169E3;
+    font-size: 1rem;
+    padding-top:5.5em;
+    padding-bottom: 1em;
+
+}
+
+.main_bottom_sec1 h2{
+    all: unset;
+    color:#363636;
+    font-size: 2.75rem;
+    font-weight: 600;
+    padding-top: 100px;
+
+
+}
+
+.main_bottom_sec1 p{
+    color:#475467;
+    font-size: 1.25rem;
+    line-height: 1.5em;
+    padding-top: 1em;
+
+}
+
+.main_bottom_sec2{
+    width:100%;
+    height:32vw;
+    padding-top:3vw;
+}
+
+.main_bottom_sec2_card{
+    flex: 1;
+    
+}
+
+
+
+.bottom_sec2_sub1,
+.bottom_sec2_sub2{
+    width:100%;
+    height:50%;
+    display: flex;
+    /* background-color: red; */
+    
+}
+
+.main_bottom_sec3{
+  width: 100%;
+  padding-top: 3vw;
+
+}
+
+.main_bottom_sec3 h4{
+    width: 100%;
+    font-size: 2.75rem;
+    text-align: center;
+    color: #363636;
+    padding-bottom: 3vw;
+}
+.main_bottom_sec3 .div_small{
+    display: none;
+
+}
+
+.small_swiper{
+    
+    /* display: none; */
+    
+}
+
+@media only screen and (min-width: 1600px) {
+    .benifits2_main_top h1{
+        font-size: 4rem;
+    }
+    
+    .benifits2_main_top p{
+        font-size: 2rem;
+    }
+    .main_bottom_sec1 h5{
+        font-size: 1.2rem;
+    }
+    .main_bottom_sec1 h2{
+        font-size: 3rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .benifits2_main{
+        height: auto;
+    }
+
+    .main_bottom_sec2{
+        height: auto;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .bottom_sec2_sub1,
+    .bottom_sec2_sub2{
+        flex-direction: column;
+        width:40vw;
+        gap:3vw;
+        margin-bottom: 3vw;
+        /* background-color: yellow; */
+    }
+
+    .div_normal{
+        display: none;
+    }
+    .main_bottom_sec3 .div_small{
+        display: block;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .benifits2_main_top h1{
+        font-size: 3rem;
+    }
+    
+    .benifits2_main_top p{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .benifits2_main_top{
+        height: auto;
+        padding-top:2%;
+        padding-bottom:2%;
+    }
+    .benifits2_main_top h1{
+        font-size: 2rem;
+    }
+    
+    .benifits2_main_top p{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 920px) {
+    .bottom_sec2_sub1,
+.bottom_sec2_sub2{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+    .main_bottom_sec2_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: yellow; */
+        /* width: auto; */
+        text-align: center;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 920px) {
+    .main_bottom_sec1 {
+        width:auto;
+    }
+    .main_bottom_sec1 h2{
+        font-size: 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 415px) {
+
+
+    .benifits2_main_top h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .benifits2_main_top h1 span{
+        display: inline;
+    }
+
+    .benifits2_main_top p{
+        
+        text-align: center;
+        font-size: 0.95rem;
+    }
+    .main_bottom_sec1 {
+        width:auto;
+    }
+    .main_bottom_sec1 h2{
+        font-size: 1.5rem;
+    }
+    .main_bottom_sec1 p{
+        font-size: 1rem;
+    }
+
+}
+
+

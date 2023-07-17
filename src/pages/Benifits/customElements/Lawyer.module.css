@@ -1,0 +1,105 @@
+.lawyer_main{
+    width:100%;
+}
+
+.Swiper_{
+    
+    width:90%;
+}
+
+.swiperSlide{
+    width: 100%;
+    
+    
+}
+
+
+
+
+
+.swipe_img{
+    /* height:400px;
+    width:350px; */
+    width:100%;
+    height:90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.swiperSlide_sec{
+    margin-top: 0;
+    width:50%;
+    height:4vw;
+    position: relative;
+    top:-4.2vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.swiperSlide_sec h5{
+    font-size: 1.37rem;
+    color:#191D23;
+}
+.swiperSlide_sec section .img{
+    width:20px;
+    height:15px;
+    width:12%;
+    height:65%;
+}
+
+.swiperSlide_sec section span{
+    color: #191D23;
+    font-size: 1.12rem;
+}
+
+@media only screen and (max-width: 1040px) {
+    .swiperSlide_sec h5{
+        font-size: 1rem;
+    }
+    .swiperSlide_sec section span{
+        font-size: 0.95rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 930px) {
+
+
+    .swiperSlide_sec h5{
+        font-size: 1rem;
+    }
+    .swiperSlide_sec section span{
+        font-size: 0.95rem;
+    }
+
+    .swiperSlide_sec{
+        /* width:auto; */
+        max-width:90%;
+        height: auto;
+
+    }
+
+}
+
+@media only screen and (max-width: 629px) {
+
+
+    .swiperSlide_sec h5{
+        font-size: 1rem;
+    }
+    .swiperSlide_sec section span{
+        font-size: 0.95rem;
+    }
+
+    .swiperSlide_sec{
+        /* width:auto; */
+        width:100%;
+
+    }
+
+}

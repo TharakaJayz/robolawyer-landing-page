@@ -5,11 +5,12 @@ import AboutUs from "./pages/aboutUs/AboutUs";
 import HowItWorks from "./pages/howItWorks/HowItWorks";
 
 import { Route, Routes } from "react-router-dom";
-import Benifits from "./pages/Benifits/Benifits";
+import Benifits1 from "./pages/Benifits/Benifits1";
 import Pricing from "./pages/pricing/Pricing";
 import Reviews from "./pages/reviews/Reviews";
 import FAQ from "./pages/FAQ/FAQ";
 import Home from "./pages/home/Home";
+import Benifits2 from "./pages/Benifits/Benifits2";
 
 const App = () => {
 
@@ -31,7 +32,8 @@ const App = () => {
       <Home/>
       <AboutUs />
       <HowItWorks />
-      <Benifits />
+      <Benifits1 />
+      <Benifits2 />
       <Pricing/>
       <Reviews />
       <FAQ />

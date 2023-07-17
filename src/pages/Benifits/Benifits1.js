@@ -1,9 +1,9 @@
 import React from "react";
-import classes from "./Benifits.module.css";
+import classes from "./Benifits1.module.css";
 import imgage from "../../assets/benifict_img.png";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
-const Benifits = () => {
+const Benifits1 = () => {
   return (
     <div className={classes.benificts_main} id="benifits-section">
       <div className={classes.Benifits_main_content}>
@@ -50,4 +50,4 @@ const Benifits = () => {
   );
 };
 
-export default Benifits;
+export default Benifits1;
