@@ -1,13 +1,16 @@
 .pricing_main{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     padding:8rem 7%;
-    background-color: #F3F6FF;;
+    background-color: #F3F6FF;
+    display: flex;
+    flex-direction: column;
     
     
 }
 
 .pricing_main_top {
+    /* background-color: yellow; */
     width:100%;
     text-align: center;
     display: flex;
@@ -30,6 +33,7 @@
 }
 
 .pricing_main_top .p{
+    flex:1;
     font-size: 1rem;
     line-height: 1.7em;
     width:70%;
@@ -43,6 +47,7 @@
     align-items: center;
     justify-content: center;
     gap:1%;
+    padding-bottom: 1%;
 }
 
 .toggled{
@@ -54,3 +59,588 @@
     margin-left: 4px;
     
   }
+
+  .pricing_main_bottom{
+    flex:3;
+    /* background-color: pink; */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:2%;
+    padding-top: 2%;
+  }
+
+
+
+  .priceCard_style_permium h4,.priceCard_style_permium p,.priceCard_style_permium div,.priceCard_style_permium h1,.priceCard_style_permium button{
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .priceCard_style_permium{
+    background-color: #4169E3 !important;
+  }
+
+  .priceCard_style_permium button{
+    COLOR:#4169E3 !important;
+  }
+  .priceCard_style_permium button:hover{
+    background-color: #fff !important;
+    scale:1.05;
+  }
+
+
+
+  @media only screen and (min-width: 1600px) {
+    
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_bottom{
+       
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:35% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 2rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1.5rem !important;
+        width: 80% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 1.2rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3.5rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:60% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1.2rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+
+
+  }
+
+
+  @media only screen and (max-width: 1270px) {
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_bottom{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:35% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 1.6rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1.1rem !important;
+        width: 70% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 1rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:60% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1.2rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+  } 
+
+
+
+  @media only screen and (max-width: 1100px) {
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_bottom{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:35% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 1.6rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1rem !important;
+        width: 70% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 0.9rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:65% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+  } 
+
+
+  @media only screen and (max-width: 900px) {
+
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_top h1{
+        font-size: 2.4rem;
+    }
+    .pricing_main_top_toggle{
+        flex-direction: column;
+        gap:10px;
+    }
+
+
+
+
+    .pricing_main_bottom{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:50% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 1.6rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1rem !important;
+        width: 70% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 1rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:65% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1.1rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+  } 
+
+
+
+  @media only screen and (max-width: 615px) {
+
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_top h1{
+        font-size: 2.4rem;
+    }
+    .pricing_main_top_toggle{
+        flex-direction: column;
+        gap:10px;
+    }
+
+
+
+
+    .pricing_main_bottom{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:50vw !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 1.6rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1rem !important;
+        width: 70% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 1rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:60% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1.1rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+  } 
+
+
+
+  @media only screen and (max-width: 540px) {
+
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_top h1{
+        font-size: 2.4rem;
+    }
+
+    .pricing_main_top .p{
+        width: 80%;
+    }
+    .pricing_main_top_toggle{
+        flex-direction: column;
+        gap:10px;
+    }
+
+
+
+
+    .pricing_main_bottom{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:60vw !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 1.6rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1rem !important;
+        width: 70% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 1rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:60% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1.1rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+  } 
+
+
+
+
+  @media only screen and (max-width: 420px) {
+
+
+    .pricing_main{
+        height: auto;
+    }
+    .pricing_main_top h1{
+        font-size: 2.4rem;
+    }
+
+    .pricing_main_top .p{
+        width: 90%;
+    }
+    .pricing_main_top_toggle{
+        flex-direction: column;
+        gap:10px;
+    }
+
+
+
+
+    .pricing_main_bottom{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    .priceCard_style_freebie,.priceCard_style_basic,.priceCard_style_permium,.priceCard_style_lawyer{
+        margin-bottom: 2rem;
+        width:80vw !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+
+    .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
+         font-size: 1.6rem !important;
+         text-align: center !important;
+    } 
+
+    .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
+        font-size: 1rem !important;
+        width: 70% !important;
+        margin:0 auto;
+        text-align: center !important;
+        padding-bottom: 2% !important;
+        height: auto !important;
+        /* background-color: red; */
+   } 
+
+   .priceCard_style_freebie div,.priceCard_style_basic div,.priceCard_style_permium div,.priceCard_style_lawyer div{
+    font-size: 1rem !important;
+    text-align: center !important;
+   
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
+    font-size: 3rem !important;
+    
+    
+   
+    
+    
+} 
+
+.priceCard_style_freebie button,.priceCard_style_basic button,.priceCard_style_permium button,.priceCard_style_lawyer button{
+    width:60% !important;
+    margin:0 auto;
+}
+
+.priceCard_style_freebie div section,.priceCard_style_basic div section,.priceCard_style_permium div section,.priceCard_style_lawyer div section{
+    justify-content: center;
+   
+    font-size: 1.1rem;
+    padding-left:0;
+    gap:6% !important;
+    
+}
+  } 
+
+

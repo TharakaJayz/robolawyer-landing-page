@@ -1,0 +1,78 @@
+.pricingCard_main{
+    width:20%;
+    background-color: rgb(255, 255, 255);
+    border:2px solid #D0D5DD;
+    padding:2.5% 1.5%;
+    border-radius:2.5%;
+}
+
+.pricingCard_main h4{
+    width:100%;
+    font-size: 1.37rem;
+    color:#191D23;
+    text-align: left;
+    
+}
+.pricingCard_main p{
+    width:100%;
+    /* background-color: red; */
+     
+    font-size: 1rem;
+   
+    
+    height:6rem;
+    color: #64748B;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.price_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:2%;
+    text-align: left;
+    color:#4B5768;
+    font-size: 1rem;
+    padding-bottom: 1em;
+}
+
+.price_div h1{
+    color:#191D23;
+    font-size: 3.5rem;
+}
+
+.pricingCard_main button{
+    width: 100%;
+    font-size: 1rem;
+    padding:0.6em 1em;
+    border-radius: 0.55em;
+    border:2px solid #4169E3;
+    color:#4169E3;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    background-color: #FFF;
+}
+
+.pricingCard_main button:hover{
+    background-color: #4169E3;
+    color: #fff;
+}
+
+
+
+.feture_div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding-top:2rem;
+    gap:1.3rem;
+}
+
+.feture_div section{
+    display: flex;
+    align-items: center;
+    gap:5%;
+    padding-left:5%;
+}
