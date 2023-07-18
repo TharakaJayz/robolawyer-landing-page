@@ -11,6 +11,7 @@ import Reviews from "./pages/reviews/Reviews";
 import FAQ from "./pages/FAQ/FAQ";
 import Home from "./pages/home/Home";
 import Benifits2 from "./pages/Benifits/Benifits2";
+import Partners from "./pages/partners/Partners";
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
       <Benifits1 />
       <Benifits2 />
       <Pricing/>
+      <Partners />
       <Reviews />
       <FAQ />
       {/* <button className={classes.app_btn}>HOME</button> */}
