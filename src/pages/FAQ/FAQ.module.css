@@ -1,0 +1,68 @@
+.faq_main{
+    width:100%;
+    padding:8rem 7%;
+    height: 100vh;
+    
+    
+}
+
+.faq_main h3{
+    width:100%;
+    text-align: center;
+    font-weight: unset;
+    color:#4169E3;
+}
+
+.faq_main h1{
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: unset;
+    font-weight: 550;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+
+.faq_main p{
+    text-align: center;
+    font-size: 1.25rem;
+    color:#475467;
+}
+
+
+.faq_main section{
+    width: 100%;
+    
+}
+
+
+.card_style{
+    margin:0 auto;
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    .faq_main h3{
+        font-size: 2rem;
+    }
+
+
+    .faq_main h1{
+        font-size: 3rem;
+    }
+
+    .faq_main p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .faq_main h1{
+        font-size: 2.2rem;
+    }
+
+    .faq_main p{
+        font-size: 1rem;
+    }
+}

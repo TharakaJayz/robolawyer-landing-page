@@ -1,0 +1,18 @@
+.div_test{
+  
+}
+
+.toggle{
+  
+   opacity: 1; /* Initially, the text is visible */
+   transition: opacity 1.5s ease;
+}
+
+
+
+
+.toggle_hide{
+    opacity: 0;
+    display: none;
+    
+}
