@@ -10,101 +10,102 @@ const Footer = () => {
      <div className={classes.footer_main_sub1}>
        <section className={classes.main_sub_sec1}>
         <span>Product</span>
-        <span>Company</span>
+        <span   >Company</span>
        </section>
        <section className={classes.main_sub_sec2}>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a  className={classes.sec} href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a  className={classes.sec} href = "#">About us</a>
         </section>
        </section>
      </div>
      
      <div className={classes.footer_main_sub1}>
        <section className={classes.main_sub_sec1}>
-        <span>Resources</span>
-        <span>Use cases</span>
+        <span>Product</span>
+        <span >Company</span>
        </section>
        <section className={classes.main_sub_sec2}>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a  className={classes.sec} href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a  className={classes.sec} href = "#">About us</a>
         </section>
        </section>
      </div>
      
      <div className={classes.footer_main_sub1}>
        <section className={classes.main_sub_sec1}>
-        <span>Social</span>
-        <span>Legal</span>
+        <span>Product</span>
+        <span  >Company</span>
        </section>
        <section className={classes.main_sub_sec2}>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a className={classes.sec}  href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a  className={classes.sec} href = "#">About us</a>
         </section>
         <section  >
           <a href = "#">Overview</a>
-          <a href = "#">About us</a>
+          <a  className={classes.sec} href = "#">About us</a>
         </section>
        </section>
      </div>
+     
      
     
      </div>
