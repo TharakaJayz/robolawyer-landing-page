@@ -12,6 +12,9 @@ import FAQ from "./pages/FAQ/FAQ";
 import Home from "./pages/home/Home";
 import Benifits2 from "./pages/Benifits/Benifits2";
 import Partners from "./pages/partners/Partners";
+import Footer from "./pages/footer/Footer";
+import Certified from "./pages/certified/Certified";
+import ContactUs from "./pages/contactUs/ContactUs";
 
 const App = () => {
 
@@ -39,6 +42,9 @@ const App = () => {
       <Partners />
       <Reviews />
       <FAQ />
+      <Certified />
+      <ContactUs />
+      <Footer />
       {/* <button className={classes.app_btn}>HOME</button> */}
     </div>
   );
