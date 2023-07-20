@@ -25,6 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    
     
     
     
@@ -542,6 +544,10 @@
 
 @media only screen and (max-width: 1130px) {
 
+    
+    .home_sub{
+
+    }
    
     .home_sub_l{
         padding-top: 3%;
@@ -633,7 +639,9 @@
         padding: 0;
         background-color: transparent;
         width:100%;
-        height:100vh;
+        min-height:100vh;
+        margin-bottom: 2rem;
+        /* margin-top: 5rem; */
         /* margin-bottom:-30vw; */
         
       
@@ -647,6 +655,7 @@
 
     .home_sub{
         width:100%;
+        height: 100%;
         
         margin:0;
         padding: 0px 80px;
@@ -899,6 +908,13 @@
         margin:0px 7%;
     }
 
+    .sec_1{
+        margin-bottom: 1.6em;
+    }
+    .sec_2{
+        margin-bottom: 1.2em;
+    }
+
 
     .sub_r_div{
         display: flex;
@@ -1071,7 +1087,7 @@
         left: unset;
         width: 100%;
         scale:0.4 !important;
-        scale:0.5 !important;
+        scale:0.4 !important;
         /* scale:0.5 !important; */
         position: relative;
         left: -12%;

@@ -96,6 +96,7 @@
 .main_bottom_sec3{
   width: 100%;
   padding-top: 3vw;
+  
 
 }
 
@@ -105,6 +106,8 @@
     text-align: center;
     color: #363636;
     padding-bottom: 3vw;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .main_bottom_sec3 .div_small{
     display: none;

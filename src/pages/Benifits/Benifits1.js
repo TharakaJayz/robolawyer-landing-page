@@ -17,14 +17,14 @@ const Benifits1 = () => {
           </section>
           <section className={classes.main_content_R_sec3}>
             <section>
-              {" "}
+              {" "} 
               <BsFillCheckCircleFill className={classes.svg} />
               <p>Easily access legal information and guidance</p>
             </section>
             <section>
               {" "}
               <BsFillCheckCircleFill className={classes.svg} />
-              <p>Reduce costs by accessing legal resources</p>
+              <p>Reduce costs by accessing legal resources</p>   
             </section>{" "}
             <section>
               {" "}

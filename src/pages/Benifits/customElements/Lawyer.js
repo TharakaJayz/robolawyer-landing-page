@@ -17,25 +17,25 @@ const Lawyer = (props) => {
   const lawyerDetails = [
     {
       img: lawyer1,
-      name: "Mike johnson",
+      name: "Mike johnson1",
       flag: <US className={classes.img} />,
       country: "United status",
     },
     {
       img: lawyer1,
-      name: "Mike johnson",
+      name: "Mike johnson2",
       flag: <AU className={classes.img} />,
       country: "Australia",
     },
     {
       img: lawyer1,
-      name: "Mike johnson",
+      name: "Mike johnson3",
       flag: <AU className={classes.img} />,
       country: "Australia",
     },
     {
       img: lawyer1,
-      name: "Mike johnson",
+      name: "Mike johnson4",
       flag: <US className={classes.img} />,
       country: "Australia",
     },
@@ -48,6 +48,7 @@ const Lawyer = (props) => {
         spaceBetween={50}
         slidesPerView={props.display}
         navigation={true}
+        loop={true}
         // pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
@@ -55,138 +56,29 @@ const Lawyer = (props) => {
       >
         {lawyerDetails.map((lawyer) => {
           return (
-            <SwiperSlide>
-              <div className={classes.swiperSlide}>
-                <img
-                  src={lawyer.img}
-                  className={classes.swipe_img}
-                  alt="lawyer"
-                />
-                <section className={classes.swiperSlide_sec}>
-                  <h5>{lawyer.name}</h5>
-                  <section>
-                    {" "}
-                    {/* <US className={classes.img} />  */}
-                    {lawyer.flag}
-                    <span>{lawyer.country}</span>
+            <div className={classes.test_div}>
+              <SwiperSlide>
+                <div className={classes.swiperSlide}>
+                  <img
+                    src={lawyer.img}
+                    className={classes.swipe_img}
+                    alt="lawyer"
+                  />
+                  <section className={classes.swiperSlide_sec}>
+                    <h5>{lawyer.name}</h5>
+                    <section>
+                      {" "}
+                      {/* <US className={classes.img} />  */}
+                      {lawyer.flag}
+                      <span>{lawyer.country}</span>
+                    </section>
                   </section>
-                </section>
-              </div>
-            </SwiperSlide>
+                </div>
+              </SwiperSlide>
+            </div>
           );
         })}
-
-        {/* <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                
-                <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide> */}
       </Swiper>
-
-      {/* <Swiper
-        className={`${classes.Swiper_}  ${props.smallStyle}`}
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
-        slidesPerView={2}
-        navigation
-        // pagination={{ clickable: true }}
-        // scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-      >
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={classes.swiperSlide}>
-            <img src={lawyer1} className={classes.swipe_img} alt="lawyer" />
-            <section className={classes.swiperSlide_sec}>
-              <h5>Mike johnson</h5>
-              <section>
-                {" "}
-                <US className={classes.img} /> <span>United status</span>
-              </section>
-            </section>
-          </div>
-        </SwiperSlide>
-      </Swiper> */}
     </div>
   );
 };
