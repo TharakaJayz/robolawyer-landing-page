@@ -411,21 +411,13 @@
         font-size: 1.5rem;
     }
 
-    .sub_r_text{
-        padding-top:1%;
-        padding-bottom:1%;
-        height:25%;
+   
+
+    .sub_r_div{
+        scale:1.2!important;
     }
 
-    .sub_r_text .seb_r_sec1 button,
-    .sub_r_text .seb_r_sec3 {
-        font-size: 1.4rem;
-    }
-
-
-    .sub_r_text .seb_r_sec2{
-        font-size: 2.5rem;
-    }
+    
 
 }
 

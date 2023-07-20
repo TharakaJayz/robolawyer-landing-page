@@ -14,7 +14,7 @@ const HowItWorks = () => {
             <section className={classes.detail_sec1_sub_sec1}>PROCESS</section>
             <section className={classes.detail_sec1_sub_sec2}>
               How it <span>works?</span>
-            </section>
+            </section>  
             <section className={classes.detail_sec1_sub_sec3}>
               <section className={classes.detail_sec1_sub_sec3_L}>
                 {" "}
@@ -72,8 +72,8 @@ const HowItWorks = () => {
             <img className={classes.HItW_main_div_img3} src={rect} alt="rectangle" />
             
           </section>
-        </div>
-        <img className={classes.HItW_main_div_img2} src={rect} alt="rectangle" />
+          </div>
+          <img className={classes.HItW_main_div_img2} src={rect} alt="rectangle" />
       </div>
     </div>
   );
