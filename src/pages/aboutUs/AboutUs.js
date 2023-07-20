@@ -16,7 +16,7 @@ const AboutUs = () => {
         </section>
         <section className={classes.about_main_R_sec3}>
           <p>Robolawyer uses state-of-the-art natural language processing technology to understand complex legal queries and provide accurate responses, making it easy to obtain legal information and guidance.  y leveraging the power of AI, the system can analyze and interpret various legal documents, statutes, and case law to provide comprehensive and up-to-date answers.Our goal with Robolawyer is to empower individuals by making legal information more accessible, demystifying complex legal concepts, and promoting legal literac</p>
-        </section>
+        </section>  
       </div>
     </div>
   );

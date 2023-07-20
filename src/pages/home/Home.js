@@ -45,7 +45,9 @@ const Home = () => {
         </div>
         <div className={classes.home_sub_r}>
           <div className={classes.sub_r_div}>
+            <div className={classes.sub_r_div_wrap}>
             <div className={classes.sub_r_div_sub}>
+
               {/* ttttt */}
             <section className={classes.sub_r_div_sec1}>
             <div className={classes.sub_r_text}>
@@ -81,6 +83,7 @@ const Home = () => {
 
             <img className={classes.shape1} src={homeCircles} alt="circles" />
             <img   className={classes.shape2}src={shape} alt="shape" />
+            </div>
             </div>
           </div>
         </div>
