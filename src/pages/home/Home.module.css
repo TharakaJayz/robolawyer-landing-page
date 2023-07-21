@@ -388,9 +388,15 @@
 
 
 @media only screen and (min-width: 1600px) {
+    .home_main{
+        
+    }
 
     .home_sub_l{
 
+    }
+    .home_sub{
+      
     }
 
     .sec_1 a{

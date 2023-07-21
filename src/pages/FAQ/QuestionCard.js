@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./QuestionCard.module.css";
 import { useState } from "react";
-import Testing from "./Testing";
+
 import {AiOutlinePlusCircle} from 'react-icons/ai';
 import {AiOutlineMinusCircle} from 'react-icons/ai';
 

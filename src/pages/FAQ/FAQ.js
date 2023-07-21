@@ -32,7 +32,7 @@ const FAQ = () => {
       <h3> FAQ </h3>
       <h1>Answers to your doubts</h1>
       <p>Everything you need to know about robolawyer and our service</p>
-      <section>
+      <section className={classes.sectionS}>
         <QuestionCard  className = {classes.card_style}   details = {questionDetails[0]}  />
         <QuestionCard  className = {classes.card_style}  details = {questionDetails[1]}  />
         <QuestionCard  className = {classes.card_style}   details = {questionDetails[2]} />

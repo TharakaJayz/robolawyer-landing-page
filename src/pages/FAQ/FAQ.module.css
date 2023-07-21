@@ -2,6 +2,9 @@
     width:100%;
     padding:8rem 7%;
     height: 100vh;
+    border: 2px solid blue;
+    /* height: auto; */
+    
     
     
 }
@@ -44,6 +47,13 @@
 
 @media only screen and (min-width: 1600px) {
 
+    .faq_main{ 
+        /* height: auto !important; */
+        
+        padding-bottom: 5rem;
+        margin-bottom: 5rem;
+    }
+
     .faq_main h3{
         font-size: 2rem;
     }
@@ -56,6 +66,23 @@
     .faq_main p{
         font-size: 1.5rem;
     }
+
+    .sectionS{
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        width: 50% !important;
+        
+        
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .faq_main{ 
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -63,6 +90,7 @@
     .faq_main{
         height: auto;
         /* border:2px solid green; */
+        
         padding-bottom: 3rem;
     }
     .faq_main h1{

@@ -76,6 +76,10 @@
 
 
 @media only screen and (min-width: 1600px) {
+    .about_main{
+        height: auto;
+        padding-top: 5rem;
+    }
 
     .about_main_R_sec1{
         font-size: 2rem;

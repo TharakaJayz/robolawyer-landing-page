@@ -92,6 +92,9 @@
 
 
   @media only screen and (min-width: 1600px) {
+    .pricing_main_top .p{
+        font-size: 1.3rem;
+    }
     
 
     .pricing_main{
