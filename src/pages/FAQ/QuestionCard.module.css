@@ -44,6 +44,11 @@
     
 }
 
+.que_main *{
+    transition: 0.7s ease-in-out !important;
+
+}
+
 .question{
     
     font-weight: bolder;
@@ -65,25 +70,94 @@
 }
 
 
-.show p{
+.show p {
     
-    transition: 0.2s  ease-in-out;
-    color:#475467;
-    font-size: 1rem;
-    text-align: left;
+    /* transition: 1s  ease-in-out; */
+    /* color:#475467; */
+    
+    /* text-align: left;
     margin-bottom: 1em;
     width:90%;
+    height: auto; */
+   
+
+    /* -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease; */
+
+    
 
 }
 
-.hide p{
-    transition: 0.2s  ease-in-out;
-    font-size: 0;
-    opacity:0;
+.hide {
+    color:#475467;
+    transition: 1s  ease-in-out;
+    /* font-size: 0; */
+    /* opacity:0; */
+
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
     /* position: absolute; */
 }
 
+.normal{
+
+    color:#475467;
+  
+    text-align: left !important;
+    margin-bottom: 1em !important;
+    width:100% !important;
+    height: 0;
+    font-size: 0.9rem !important;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+    transition: 0.7s ease-in-out !important;
+   /* background-color: red; */
+   /* padding: 0 !important; */
+
+  
+    /* text-align: left !important;
+    padding-bottom: 1em !important;
+    
+    height: 0 !important;
+    width: 90%;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease; */
+    
+}
+
+.toggle{
+    /* border-bottom: 1px solid #2a4163; */
+    height: auto;
+    opacity: 1;
+    padding: 15px;
+    width:100% !important;
+}
+
+
 .hr{
+    display: none;
     
     margin-top: 10px;
     margin-bottom: 10px;
@@ -93,5 +167,11 @@
 @media only screen and (min-width: 1600px) {
     .question ,.show p{
         font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .que_main{
+      
+       
     }
 }

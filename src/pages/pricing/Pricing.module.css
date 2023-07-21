@@ -1,6 +1,7 @@
 .pricing_main{
     width: 100%;
     height: 130vh;
+    height: auto;
     padding:8rem 7%;
     background-color: #F3F6FF;
     display: flex;
@@ -109,21 +110,24 @@
         flex-direction: column;
         justify-content: center;
         
+        
     }
 
 
     .priceCard_style_freebie h4,.priceCard_style_basic h4,.priceCard_style_permium h4,.priceCard_style_lawyer h4{
          font-size: 2rem !important;
          text-align: center !important;
+         
     } 
 
     .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
-        font-size: 1.5rem !important;
+        border:2px solid red;
+        font-size: 1.2rem !important;
         width: 80% !important;
         margin:0 auto;
         text-align: center !important;
         padding-bottom: 2% !important;
-        height: auto !important;
+        /* height: auto !important; */
         /* background-color: red; */
    } 
 
@@ -138,6 +142,7 @@
 
 .priceCard_style_freebie div h1,.priceCard_style_basic div h1,.priceCard_style_permium div h1,.priceCard_style_lawyer div h1{
     font-size: 3.5rem !important;
+    
     
     
    

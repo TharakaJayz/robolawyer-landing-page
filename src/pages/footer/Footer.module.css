@@ -14,12 +14,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* border: 2px solid blue; */
+    gap:15%;
 }
 
 .footer_main_sub1{
     flex: 1;
     font-size: 0.87rem;
     color:#667085;
+    /* border:2px solid red; */
 }
 
 .main_sub_sec1 , .main_sub_sec2 section{
@@ -34,6 +37,7 @@
 .main_sub_sec1 span,.main_sub_sec2 section a{
     flex:1;
     text-align: left;
+    text-align:center;
     
 }
 
@@ -59,11 +63,46 @@
     justify-content: center;
 }
 
+.sec{
+    /* text-align: right !important; */
+  
+}
+
 .footer_end a{
     text-decoration: none;
     color: #667085;
     
 }
+
+@media only screen and (max-width: 1200px) {
+    .footer_main_content{
+        gap: 10%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .footer_main_content{
+        gap: 5%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .footer_main_content{
+        gap: 2%;
+    }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .footer_main_content{
+        gap: 0%;
+    }
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 655px) {

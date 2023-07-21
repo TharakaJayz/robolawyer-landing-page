@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./PricingCard.module.css";
-import {MdDone} from 'react-icons/md';
+// import {MdDone} from 'react-icons/md';
 
 const PricingCard = (props) => {
   return (

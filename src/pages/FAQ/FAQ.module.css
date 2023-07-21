@@ -33,6 +33,7 @@
 .faq_main section{
     width: 100%;
     
+    
 }
 
 
@@ -58,6 +59,12 @@
 }
 
 @media only screen and (max-width: 1300px) {
+
+    .faq_main{
+        height: auto;
+        /* border:2px solid green; */
+        padding-bottom: 3rem;
+    }
     .faq_main h1{
         font-size: 2.2rem;
     }

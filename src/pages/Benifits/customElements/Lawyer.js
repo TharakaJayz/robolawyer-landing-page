@@ -39,6 +39,24 @@ const Lawyer = (props) => {
       flag: <US className={classes.img} />,
       country: "Australia",
     },
+    {
+      img: lawyer1,
+      name: "Mike johnson5",
+      flag: <US className={classes.img} />,
+      country: "Australia",
+    },
+    {
+      img: lawyer1,
+      name: "Mike johnson6",
+      flag: <US className={classes.img} />,
+      country: "Australia",
+    },
+    {
+      img: lawyer1,
+      name: "Mike johnson7",
+      flag: <US className={classes.img} />,
+      country: "Australia",
+    },
   ];
   return (
     <div className={classes.lawyer_main}>
@@ -49,12 +67,14 @@ const Lawyer = (props) => {
         slidesPerView={props.display}
         navigation={true}
         loop={true}
+        // loopedSlidesLimit={false}
+        // loopedSlides={true}
         // pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {lawyerDetails.map((lawyer) => {
+        {/* {lawyerDetails.map((lawyer) => {
           return (
             <div className={classes.test_div}>
               <SwiperSlide>
@@ -68,16 +88,141 @@ const Lawyer = (props) => {
                     <h5>{lawyer.name}</h5>
                     <section>
                       {" "}
-                      {/* <US className={classes.img} />  */}
+                     
                       {lawyer.flag}
                       <span>{lawyer.country}</span>
                     </section>
                   </section>
                 </div>
               </SwiperSlide>
+
+            
+              <SwiperSlide> slide 2 </SwiperSlide>
+              <SwiperSlide> slide 3 </SwiperSlide>
+              <SwiperSlide> slide 4 </SwiperSlide>
+              <SwiperSlide> slide 5 </SwiperSlide>
             </div>
           );
-        })}
+        })} */}
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[0].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[0].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[0].flag}
+                <span>{lawyerDetails[0].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[1].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[1].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[1].flag}
+                <span>{lawyerDetails[1].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[2].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[2].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[2].flag}
+                <span>{lawyerDetails[2].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[3].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[3].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[3].flag}
+                <span>{lawyerDetails[3].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[4].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[4].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[4].flag}
+                <span>{lawyerDetails[4].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[5].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[5].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[5].flag}
+                <span>{lawyerDetails[5].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className={classes.swiperSlide}>
+            <img
+              src={lawyerDetails[6].img}
+              className={classes.swipe_img}
+              alt="lawyer"
+            />
+            <section className={classes.swiperSlide_sec}>
+              <h5>{lawyerDetails[6].name}</h5>
+              <section>
+                {" "}
+                {lawyerDetails[6].flag}
+                <span>{lawyerDetails[6].country}</span>
+              </section>
+            </section>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

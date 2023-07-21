@@ -58,6 +58,22 @@
 
   .smal{
     display:block;
+    width: 70% !important;
+    
+  }
+
+}
+
+@media only screen and (max-width: 1170px) {
+
+  .big{
+    display: none;
+  }
+
+  .smal{
+    display:block;
+    width: 100% !important;
+    
   }
 
 }

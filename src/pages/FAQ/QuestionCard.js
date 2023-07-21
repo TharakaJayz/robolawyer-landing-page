@@ -8,6 +8,14 @@ import {AiOutlineMinusCircle} from 'react-icons/ai';
 const QuestionCard = (props) => {
   const [showLogic, setShowLogic] = useState(false);
   console.log(showLogic);
+  let toggleClasses = '';
+
+  if(showLogic){
+      toggleClasses = classes.toggle
+      console.log('toggled class',toggleClasses)
+  }else{
+    toggleClasses = '';
+  }
   return (
     <div className={`${classes.que_main}  ${props.className} `}>
       <section className={classes.question}>
@@ -16,13 +24,15 @@ const QuestionCard = (props) => {
        {showLogic &&( <AiOutlineMinusCircle  className={classes.toggle_svg}   onClick={() => setShowLogic(!showLogic)} /> )}
         
       </section>
-      <section className={showLogic ? classes.show : classes.hide}>
-        {" "}
-        <p>
+      <section className={classes.show}>
+        
+        <p   className={`${classes.normal} ${toggleClasses}`}>
         {props.details.answer}
         </p>
+       
       </section>
       <hr className={classes.hr} />
+    
 
       {/* <div>test text</div>
       <div   className={ showLogic ?  classes.show: classes.hide }   > <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.</p></div> */}

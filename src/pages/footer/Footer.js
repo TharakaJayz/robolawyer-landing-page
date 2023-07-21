@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={classes.footer_main_sub1}>
           <section className={classes.main_sub_sec1}>
             <span>Product</span>
-            <span>Company</span>
+            <span className={classes.sec}>Company</span>
           </section>
           <section className={classes.main_sub_sec2}>
             <section>
@@ -54,7 +54,7 @@ const Footer = () => {
         <div className={classes.footer_main_sub1}>
           <section className={classes.main_sub_sec1}>
             <span>Resources</span>
-            <span>Use cases</span>
+            <span className={classes.sec}>Use cases</span>
           </section>
           <section className={classes.main_sub_sec2}>
             <section>
@@ -99,7 +99,7 @@ const Footer = () => {
         <div className={classes.footer_main_sub1}>
           <section className={classes.main_sub_sec1}>
             <span>Social</span>
-            <span>Legal</span>
+            <span className={classes.sec}>Legal</span>
           </section>
           <section className={classes.main_sub_sec2}>
             <section>
