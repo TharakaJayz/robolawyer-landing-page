@@ -1,6 +1,9 @@
 .review_main{
     width:100%;
     padding:8rem 7%;
+    padding-bottom: 3rem;
+    /* border: 2px solid green; */
+    height: auto;
     
 }
 

@@ -121,7 +121,7 @@
     } 
 
     .priceCard_style_freebie p,.priceCard_style_basic p,.priceCard_style_permium p,.priceCard_style_lawyer p{
-        border:2px solid red;
+        /* border:2px solid red; */
         font-size: 1.2rem !important;
         width: 80% !important;
         margin:0 auto;

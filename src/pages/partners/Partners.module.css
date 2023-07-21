@@ -5,12 +5,14 @@
     padding-bottom: 0;
     /* background-color: yellow; */
     height: 50vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap:5%;
+    /* border: 3px solid red; */
     /* background-image: linear-gradient(to right, black 33%, rgba(255,255,255,0) 0%);
     background-position:top;
     background-size: 50px 2px;
@@ -26,15 +28,19 @@
 .partner_main h4{
     font-weight: unset;
     font-size: 1rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
     color:#4169E3;
 }
 .partner_main h2{
     font-weight: 700;
     font-size: 2.75rem;
+    padding-bottom:0.5em ;
     color:#000;
 }
 .partner_main p{
     font-size: 1.25rem;
+    padding-bottom: 1em;
     width:60%;
     color:#475467;
 }
@@ -43,6 +49,9 @@
     width:100%;
     display: flex;
     height:32%;
+    height:auto;
+    padding-bottom: 1rem;
+    /* border:2px solid green; */
     
 }
 .partner_log_div section{
@@ -51,6 +60,7 @@
     justify-content: center;
     align-items: center;
     gap:10%;
+    /* border:2px solid blue; */
     
 }
 .partner_log_div section img{
@@ -61,29 +71,43 @@
 .img_1{
     width:30%;
     height:100%;
+    width:99px;
+    height:99px;
+    
  }
  .img_2{
      width:30%;
      height:100%;
+     width:149px;
+     height:99px;
+     
     }
     .img_3{
         width:35%;
         height:150%;
+        width:148px;
+        height:148px;
     }
     .img_4{
         width: 32%;
         height: 50%;
+        width: 139px;
+        height: 48px;
 
     }
     .img_5{
         width: 40%;
         height: 105%;
+        width: 167px;
+        height: 104px;
     }
     
 .img_6{
    
     width: 30%;
     height: 100%;
+    width: 136px;
+    height: 144px;
 }
 
 .extra_div{
@@ -121,6 +145,11 @@
 
     .partner_main{
         height: auto;
+    }
+
+    .partner_log_div section{
+        width: 100% !important;
+        
     }
 
     .partner_main h4{
