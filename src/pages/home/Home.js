@@ -10,13 +10,22 @@ import user2 from '../../assets/User Thumb2.png';
 import user3 from '../../assets/User Thumb3.png';
 import user4 from '../../assets/User Thumb4.png';
 import user5 from '../../assets/User Thumb5.png';
-
+import ReactGA from "react-ga4";
 const Home = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
 
     section.scrollIntoView({ behavior: "smooth" });
   };
+
+  const handleButtonclick = () =>{
+    ReactGA.event({
+  category: "credit card btn config",
+  action: "no_action",
+  label: "button", // optional
+  
+});
+  }
 
   return (
     <div className={classes.home_main}>
@@ -39,7 +48,7 @@ const Home = () => {
             </p>
           </section>
           <section className={classes.sec_4}>
-            <button>Get Robolawyer for $0</button>
+            <button onClick={handleButtonclick}>Get Robolawyer for $0</button>
             <p>No credit card required</p>
           </section>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Feedback.module.css";
-import quota from "../../assets/quation.png";
 
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
